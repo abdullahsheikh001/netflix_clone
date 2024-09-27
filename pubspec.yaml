@@ -1,0 +1,40 @@
+name: netflix_clone
+description: "A new Flutter project."
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.1
+  avatar_glow: ^3.0.1
+  font_awesome_flutter: ^10.7.0
+  animated_splash_screen: ^1.3.0
+  lottie: ^3.1.2
+  carousel_slider: ^5.0.0
+  http: ^1.2.2
+  get: ^4.6.6
+  introduction_screen: ^3.1.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#000000"
+  background_image: "assets/images/netflixlogo.png"
+
+  android_12:
+    image: assets/images/netflixlogo.png
+    color: "#000000"
